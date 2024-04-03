@@ -1,0 +1,31 @@
+/* CSS Variables */
+:root {
+    /* Text: Heading, Body */
+    --dark-navy: hsl(218, 44%, 22%);
+    --grey: hsl(220, 15%, 55%);
+
+    /* Background: Web, Card */
+    --light-grey: hsl(212, 45%, 89%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Font Family */
+    --font-family: "Outfit", sans-serif;
+
+    /* Font Sizes */
+    --fs-heading: 0.938rem;
+    --fs-body: 1.375rem;
+
+    /* Font Weights */
+    --ff-weight-heading: 700;
+    --ff-weight-body: 400;
+}
+/* End CSS Variables */
+
+/* Layout */
+/* End Layout */
+
+/* Default */
+/* End Default */
+
+/* Media Query */
+/* End Media Query */
