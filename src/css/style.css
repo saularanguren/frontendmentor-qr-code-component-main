@@ -92,19 +92,13 @@ body {
 }
 
 .--body {
-    font-size: var(--fs-body);
+    font-size: var(--fs-body); 
     font-weight: var(--ff-weight-body);
     color: var(--grey);
+
+    letter-spacing: 0.012rem;
 
     width: 16rem;
     height: 3.563rem;
 }
 /* End QR Code Component */
-
-/* Media Query */
-@media screen and (min-width: 1024px) {
-    .qr__component__info {
-        gap: 1.25rem;
-    }
-}
-/* End Media Query */
