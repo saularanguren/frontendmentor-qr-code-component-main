@@ -5,22 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | QR code component</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/output.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   </head>
 
-  <body class="--flex">
+  <body class="--flex min-h-screen bg-light-grey"> 
 
     <!-- QR Code Component -->
-    <main class="qr__component">
-      <figure class="qr__component__img">
+    <main class="h-qr__component w-80 rounded-qr__component p-qr__component bg-white shadow-qr__component">
+      <figure class="h-72 w-72 rounded-qr__component__img overflow-hidden mb-6">
         <img src="src/images/image-qr-code.png" alt="image-qr-code" class="--img">
       </figure>
       
-      <section class="qr__component__info --flex">
-        <h1 class="--heading --info">Improve your front-end skills by building projects</h1>
-        <p class="--body --info">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      <section class="--flex w-72 h-qr__component__info flex-col gap-4">
+        <h1 class="--info text-heading font-heading text-dark-navy w-72 h-14">Improve your front-end skills by building projects</h1>
+        <p class="--info text-body font-body text-grey tracking-body w-64 h-body">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
       </section>
     </main>
     <!-- End QR Code Component -->
